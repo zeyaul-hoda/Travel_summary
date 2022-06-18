@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Vacation Travel Survey </title>
+    <link rel="stylesheet" href="C:\Users\Admin\Desktop\TravelSummary\style.css ">
+</head>
+<body>
+    <header>
+        <h1 id="title">Vacation Travel Survey </h1>
+    </header>
+    <main>
+        <p id="description">Tell us About Last Vacation Experience </p>
+        <form id="Survey-form">
+            <div class="col-left">
+                <label id="name-label" for="name">Name:</label>
+            </div>
+            <div class="col-right">
+                <input id="name" placeholder="Enter your name" required/>
+            </div>
+            <div class="col-left">
+                <label id="email-label" for="email">Email:</label>
+            </div>
+            <div class="col-right">
+                <input type="email" id="emails" name="emails" placeholder ="Enter your email" required/>
+            </div>
+            <div class="left-col">
+                <label for="number" id="number">Age:</label>
+            </div>
+            <div>
+                <input type="number" id="number" min="5" max="100" placeholder="Enter your age">
+            </div>
+            <div col-left>
+                <label for="group">Which sections describes you most:</label>
+            </div>
+            <div class="col-right">
+                <select name="dropdown" id="">
+                    <option value="Single Traveller">Single</option>
+                    <option value="couple">Couple </option>
+                    <option value="family">With Family</option>
+                    <option value="friends">With Friends</option>
+                </select>
+            </div>
+            <div id="col-left">
+                <legend>How far did you Travel</legend>
+            </div>
+            <div class=col-right>
+                <p>
+                    <input type="radio" name="radio-button" id="radio-1">
+                    <label for="radio-1">Within country</label>
+                </p>
+                <p>
+                    <input type="radio" name="radio-button" id="radio-2">
+                    <label for="radio-2">Abroad</label>
+                </p>
+            </div>
+            <div class=col-left>
+                <legend>Activities you do the most on Vacation</legend>
+            </div>
+            <div class="col-right">
+                <p>
+                    <input type="checkbox" name="checkbox" value="1">
+                    <label> Sight</label>
+                </p>
+                <p>
+                    <input name="checkbox" type="checkbox" value="2">
+                    <label for="value-2">Sit and Relax</label>
+                </p>
+                <p>
+                    <input name="checkbox" type="checkbox" value="3">
+                    <label for="value-2">Explore the area</label>
+                </p>
+                <p>
+                    <input name="checkbox" type="checkbox" value="4">
+                    <label for="value-2">Hills & Mountain</label>
+                </p>
+                <p>
+                    <input name="checkbox" type="checkbox" value="5">
+                    <label for="value-2">Night Out</label>
+                </p>
+                <p>
+                    <input name="checkbox" type="checkbox" value="6">
+                    <label for="value-2">Eat and Drink</label>
+                </p>
+                </div>
+                <div class="col-left">
+                    <label for="comment">What impressed you the most</label>
+                </div>
+                <div>
+                    <textarea name="comment" id="comment" rows="5" placeholder="Comment here"></textarea>
+                </div>
+                <button type="submit" id="submit">Submit</button>
+            </div>
+        </form>
+    </main>  
+</body>
